@@ -30,5 +30,3 @@ resource "ibm_is_subnet" "iac_iks_subnet" {
   
   depends_on  = [ibm_is_vpc_address_prefix.vpc_address_prefix]
 }
-
- }
